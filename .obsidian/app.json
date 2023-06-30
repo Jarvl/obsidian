@@ -1,0 +1,13 @@
+{
+  "vimMode": false,
+  "tabSize": 2,
+  "attachmentFolderPath": "_config/Attachments",
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "newFileLocation": "current",
+  "newFileFolderPath": "",
+  "showInlineTitle": false,
+  "showFrontmatter": false,
+  "showLineNumber": false,
+  "rightToLeft": false
+}

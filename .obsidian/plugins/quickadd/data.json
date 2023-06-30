@@ -1,0 +1,393 @@
+{
+  "choices": [
+    {
+      "id": "cb567a43-01e4-47e3-875e-dfd5f38cec85",
+      "name": "Person",
+      "type": "Template",
+      "command": true,
+      "templatePath": "_config/Templates/Person Template.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "People"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Nothing",
+      "setFileExistsBehavior": true
+    },
+    {
+      "id": "bbac2e7b-b29c-4e3b-ba79-223a5e01300f",
+      "name": "One-on-one (1:1)",
+      "type": "Macro",
+      "command": true,
+      "macroId": "2ebcb39c-16c4-47fd-99ce-8506095dbfa2"
+    },
+    {
+      "id": "a2dde924-4fb7-4912-aabb-8eea9faac0d5",
+      "name": "Maps of Content (MOC)",
+      "type": "Template",
+      "command": true,
+      "templatePath": "_config/Templates/MOC Template.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "MOC"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": true,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Nothing",
+      "setFileExistsBehavior": true
+    },
+    {
+      "id": "a65b3a28-2b40-4197-9adc-cedf8a86872b",
+      "name": "Meeting",
+      "type": "Macro",
+      "command": true,
+      "macroId": "d01f2d9e-d259-40aa-b1c1-092c30966009"
+    },
+    {
+      "id": "3349e0d1-6ec7-45f8-a678-43c722b9be84",
+      "name": "Deep Dive",
+      "type": "Macro",
+      "command": true,
+      "macroId": "b6a98c3a-8f9b-4463-b35a-b812dc938b9e"
+    },
+    {
+      "id": "7c60fb5a-27fe-4add-88e5-e3b11a64a3f6",
+      "name": "Issue (Jira)",
+      "type": "Template",
+      "command": true,
+      "templatePath": "_config/Templates/QuickAdd/Jira Issue Template.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{VALUE:Jira Issue ID}} - {{VALUE:Jira Issue Title}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "Issues"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Nothing",
+      "setFileExistsBehavior": true
+    },
+    {
+      "id": "8d20c589-4cba-4219-b0e5-e40dbab18c54",
+      "name": "Make Note Permanent",
+      "type": "Macro",
+      "command": true,
+      "macroId": "0fd8f244-c660-4d6b-8e16-731d5e56336a"
+    },
+    {
+      "id": "aabd804c-cf89-4f8d-894a-7a2a068f6544",
+      "name": "Project",
+      "type": "Template",
+      "command": true,
+      "templatePath": "_config/Templates/Project Template.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "Projects"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "3d0c1983-f10f-415c-898d-af8d12efe133",
+      "name": "Open Daily Note",
+      "type": "Macro",
+      "command": false,
+      "macroId": "a70cd30a-13e8-4b3f-ba3e-41b1fc84feed"
+    },
+    {
+      "id": "98e53a4d-a9d7-42dd-abd0-6c89ea1724c1",
+      "name": "Team MOC",
+      "type": "Template",
+      "command": false,
+      "templatePath": "_config/Templates/Team MOC Template.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{Team Name}} Team"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "MOC"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default",
+      "fileExistsMode": "Nothing",
+      "setFileExistsBehavior": true
+    }
+  ],
+  "macros": [
+    {
+      "name": "Create One-on-one Note",
+      "id": "2ebcb39c-16c4-47fd-99ce-8506095dbfa2",
+      "commands": [
+        {
+          "name": "selectPerson",
+          "type": "UserScript",
+          "id": "cb516d28-d66f-4e3b-8a94-eb27ad7867b2",
+          "path": "_config/QuickAdd Scripts/selectPerson.js",
+          "settings": {}
+        },
+        {
+          "name": "One-on-one for person",
+          "type": "NestedChoice",
+          "id": "78d05bc4-b8f5-4e38-922c-8736c14d25d0",
+          "choice": {
+            "id": "e24b1cf5-78ad-406f-9c5d-3aa567af8429",
+            "name": "One-on-one for person",
+            "type": "Template",
+            "command": false,
+            "templatePath": "_config/Templates/QuickAdd/One-on-one Template.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{VALUE:person}}/{{DATE:YYYY-MM-DD-dddd}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "One-on-ones"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Nothing",
+            "setFileExistsBehavior": true
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Create Meeting Note",
+      "id": "d01f2d9e-d259-40aa-b1c1-092c30966009",
+      "commands": [
+        {
+          "name": "Meeting",
+          "type": "NestedChoice",
+          "id": "49cb9f4a-ea37-4a0f-8eff-2c2f88ff7f37",
+          "choice": {
+            "id": "4d2455fa-6e57-4e07-8258-6d60905d06d7",
+            "name": "Meeting",
+            "type": "Template",
+            "command": false,
+            "templatePath": "_config/Templates/QuickAdd/Meeting Template.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{DATE:YYYY/MM MMMM/YYYYMMDDHHmm}} - {{VALUE:Meeting name}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Meetings"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Nothing",
+            "setFileExistsBehavior": true
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Create Deep Dive",
+      "id": "b6a98c3a-8f9b-4463-b35a-b812dc938b9e",
+      "commands": [
+        {
+          "name": "Deep Dive",
+          "type": "NestedChoice",
+          "id": "dd8f0387-16d2-48b8-a529-743415c0448d",
+          "choice": {
+            "id": "1e876e9e-1abf-4e6c-801b-7382d859ab4a",
+            "name": "Deep Dive",
+            "type": "Template",
+            "command": false,
+            "templatePath": "_config/Templates/QuickAdd/Deep Dive Template.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{DATE:YYYYMMDDHHmm}} - {{VALUE:Name}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Deep Dives"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Make Note Permanent",
+      "id": "0fd8f244-c660-4d6b-8e16-731d5e56336a",
+      "commands": [
+        {
+          "name": "makeNotePermanent",
+          "type": "UserScript",
+          "id": "97b884cf-00d3-41eb-80fe-ab6bf200d44b",
+          "path": "_config/QuickAdd Scripts/makeNotePermanent.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Link to People from Team",
+      "id": "843c8d46-8e56-4b5d-b342-a056afb3cb3e",
+      "commands": [
+        {
+          "name": "selectNoteFromFolder",
+          "type": "UserScript",
+          "id": "3909aaed-8b24-4ced-977f-53c8988fa1cb",
+          "path": "_config/QuickAdd Scripts/selectNoteFromFolder.js",
+          "settings": {
+            "Folder Name": "MOC"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Open Daily Note",
+      "id": "a70cd30a-13e8-4b3f-ba3e-41b1fc84feed",
+      "commands": [
+        {
+          "name": "Daily notes: Open today's daily note",
+          "type": "Obsidian",
+          "id": "66e6a16f-d691-4d1b-8a71-52b7d5b700df",
+          "commandId": "daily-notes"
+        },
+        {
+          "name": "Toggle pin",
+          "type": "Obsidian",
+          "id": "320c53c2-57d2-4721-9ea0-5020ce607acb",
+          "commandId": "workspace:toggle-pin"
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "single-line",
+  "devMode": false,
+  "templateFolderPath": "_config/Templates",
+  "announceUpdates": true,
+  "version": "1.0.2",
+  "disableOnlineFeatures": true,
+  "ai": {
+    "OpenAIApiKey": "",
+    "defaultModel": "Ask me",
+    "defaultSystemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",
+    "promptTemplatesFolderPath": "",
+    "showAssistant": true
+  },
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true
+  }
+}

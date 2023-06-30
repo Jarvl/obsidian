@@ -1,2 +1,3 @@
 .obsidian/workspace.json
-_config/Attachments
+_config/Attachments/*
+!_config/Attachments/.gitkeep
